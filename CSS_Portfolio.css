@@ -1,0 +1,28 @@
+body {
+  background: linear-gradient(
+    135deg,
+    #ff5959,  /* Feu */
+    #6890f0,  /* Eau */
+    #78c850,  /* Plante */
+    #f8d030,  /* Électrik */
+    #f85888,  /* Fée */
+    #705898   /* Spectre */
+  );
+  background-size: 400% 400%; /*arrière plan agrandi 4 fois pour pouvoir avoir un fond animé propre*/
+  animation: moveBg 12s ease infinite; /* nom d'animation pour déplacer le fond, qui dure 12 secondes avec un déplacement fluctuant en boucle*/
+}
+
+@keyframes moveBg {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+body {
+  font-family: "Press Start 2P", cursive;
+}
+body {
+  font-size: 12px;
+}
+#titre {
+	font-weight: bold;
+}
