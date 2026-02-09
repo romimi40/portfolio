@@ -26,3 +26,9 @@ body {
 #titre {
 	font-weight: bold;
 }
+h2 {
+	text-align: center;
+}
+#tâcheprojet1 {
+	text-align: center;
+	font-size:6px ;
